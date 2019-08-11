@@ -10,7 +10,7 @@ module.exports = (pluginContext) => {
     const del = query || delimiter()
     return new Promise((resolve, reject) => {
       const names = []
-      for (let i = 0;i<20;i++) {
+      for (let i = 0; i < 20; i++) {
         const value = usernameGenerator.generateUsername(del)
         names.push({
           icon: 'fa-user-tag',

@@ -5,9 +5,18 @@
   "blocks": {
     "input": [
       {
+        "id": "user-input",
+        "type": "Keyword",
+        "keyword": "usernames",
+        "title": "Generate Usernames",
+        "subtitle": "Generate a list of usernames",
+        "icon": "fa-user-tag",
+        "connections": ["user"]
+      },
+      {
         "id": "user",
         "type": "PrefixScript",
-        "prefix": "user",
+        "prefix": "☃",
         "space": false,
         "args": "Optional",
         "script": "src/usernames.js",
