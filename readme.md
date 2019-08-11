@@ -1,5 +1,3 @@
-## Zazu Template
+## Zazu Username Generator
 
-[![Build Status](https://travis-ci.org/tinytacoteam/zazu-template.svg?branch=master)](https://travis-ci.org/tinytacoteam/zazu-template)
-
-Zazu Template for starting your own plugin.
+Type "user" to get a list of random usernames generated on the fly.
